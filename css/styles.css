@@ -8,11 +8,11 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Verdana', sans-serif;
   color: var(--slate);
   line-height: 1.5;
   letter-spacing: 0.02em;
-  background-color: #ffffff;
+  background-color: rgb(250, 255, 255);
 }
 
 h1,
@@ -71,12 +71,10 @@ address ul {
   text-transform: uppercase;
   font: bold 18px/21px 'Raleway', sans-serif;
   letter-spacing: 0.03em;
-  line-height: 1.17;
 }
 .logo-dark {
   display: block;
   padding: 0 0 0 100px;
-  color: #4d5ae5;
 }
 
 .cont {
