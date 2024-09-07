@@ -8,11 +8,11 @@
 }
 
 body {
-  font-family: 'Roboto', 'Verdana', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--slate);
   line-height: 1.5;
   letter-spacing: 0.02em;
-  background-color: rgb(250, 255, 255);
+  background-color: #ffffff;
 }
 
 h1,
@@ -44,11 +44,7 @@ span {
 }
 
 .hat {
-  width: 1280px;
-  height: 72px;
-  display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 nav {
