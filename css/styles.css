@@ -47,19 +47,8 @@ span {
   justify-content: space-between;
 }
 
-nav {
-  display: flex;
-}
-
 nav ul {
-  display: flex;
   padding: 0 0 0 120px;
-  gap: 40px;
-}
-
-address ul {
-  display: flex;
-  gap: 40px;
 }
 
 .logo-dark,
@@ -108,16 +97,12 @@ address ul {
 }
 
 .order-butt {
-  display: block;
-  margin: 0 auto;
   color: var(--white);
   font-weight: 500;
   letter-spacing: 0.04em;
   background-color: var(--iris);
   text-transform: capitalize;
   cursor: pointer;
-  padding: 16px 32px 16px 32px;
-  border-radius: 4px 0px 0px 0px;
 }
 
 .order-butt:hover,
@@ -130,7 +115,6 @@ address ul {
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
-  padding: 40px 0;
   margin: 20px;
 }
 
@@ -141,20 +125,13 @@ address ul {
   line-height: 1.2;
   text-transform: capitalize;
   text-align: center;
-  padding: 10px;
 }
 
 .a-sect ul {
-  width: 1280px;
-  display: flex;
   margin: auto;
-  padding: 40px 0 0 0;
-  gap: 30px;
 }
 
 .team-sect {
-  width: 1280px;
-  padding: 0 15px;
   background-color: var(--cloud);
   margin: auto;
 }
@@ -166,33 +143,22 @@ address ul {
 }
 
 .p-sect ul {
-  width: 1280px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 60px;
-  margin: 30px auto;
   padding: 0 0 0 60px;
 }
 
 .card-a {
   background-color: var(--white);
-  width: 268px;
   border: 2px solid var(--cloud);
-  border-radius: 4px;
 }
 
 .card-team {
   background-color: var(--white);
-  width: 268px;
   border: 4px solid var(--cloud);
-  border-radius: 4px;
 }
 
 .card-p {
   background-color: var(--white);
-  width: 362px;
   border: 2px solid var(--cloud);
-  border-radius: 4px;
 }
 
 .logo-light,
@@ -201,5 +167,4 @@ address ul {
   color: var(--cloud);
   background-color: var(--dark);
   text-align: left;
-  padding: 30px;
 }
