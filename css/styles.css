@@ -5,6 +5,7 @@
   --cloud: #f4f4fd;
   --iris: #4d5ae5;
   --ocean: #404bbf;
+  --span-color: #2e2f42;
 }
 
 body {
@@ -35,7 +36,7 @@ ul {
 }
 
 span {
-  color: var(--iris);
+  color: var(--span-color);
 }
 
 .stud-act,
